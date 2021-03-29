@@ -52,6 +52,26 @@ public class AdditionTest {
     public void tearDown() {
     }
 
+
+    //public static void assertSame([String message,] Object expected, Object actual)
+      // Same Object: expected == actual   
+    // public static void fail();
+    //public static void fail('failed');
+    //public static void assertNotSame(.....)
+    // public class TimeoutTest {
+    //@Test(timeout=1000)  // milliseconds
+    //public void test() {
+    //  while (true) {}
+    //}
+   @Test(timeout=1000)
+   public void testTimeout(){
+       System.out.println("Addition JUnitTest :test add method - test WithTimeout()");
+       final int addto =1+(int)(30000*Math.random());
+        final int addthis =1+(int)(30000*Math.random());
+        Addition instance = new Addition();
+        System.out.println("addition of:"+String.valueOf(addto)+"+"+String.valueOf(addthis));
+        System.out.println(String.valueOf(addto)+"+"+String.valueOf(addthis)+"="+instance.add(addto,addthis));
+    }
     /**
      * Test of add method, of class Addition.
      */
