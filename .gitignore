@@ -1,1 +1,4 @@
 #Ignored files
+
+target/
+nbproject/
