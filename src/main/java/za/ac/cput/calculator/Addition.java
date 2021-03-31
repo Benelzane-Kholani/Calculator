@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,11 +7,17 @@ package za.ac.cput.calculator;
 
 /**
  *
- * @author Benelzane Kholani 218257465
+ * @author Redar
  */
-public class TestModulo {
+public class Addition extends Calculator {
+
+    /**
+     *
+     * @param a
+     * @param b
+     * @return a+b
+     */
+    public int add(int a, int b){
+        return a+b;}
     
 }
-=======
-
->>>>>>> 51f2bc2fbea2e4783bf37186707b636e9a51ae24
