@@ -7,7 +7,7 @@ package za.ac.cput.calculator;
 
 /**
  *
- * @author Johnson
+ * @author Benelzane Kholani 218257465
  */
 public class TestModulo {
     
