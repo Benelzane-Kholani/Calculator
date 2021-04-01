@@ -52,7 +52,7 @@ public class ModuloTest {
 
     //Testing for timeouts
     @Test
-    public void TestTimeOuts(){
+    public void testTimeOuts(){
     assertTimeout(ofMillis(5000), () -> {
     assertEquals(mod, mod2);
         });
