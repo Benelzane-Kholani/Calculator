@@ -1,3 +1,6 @@
 #Files and folders to be ignored here
 
 target/
+/nbproject
+build.xml
+manifest.mf
