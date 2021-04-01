@@ -60,7 +60,7 @@ public class ModuloTest {
 
      //Disabling a test
      @Test
-     @Disabled("Diasbled until a new feature is implemented")
+     @Disabled("Disabled until a new feature is implemented")
     public void testSetNumber1() {
         System.out.println("setNumber1");
         int expected = 1;
